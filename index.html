@@ -375,74 +375,116 @@
     아래의 성적표는 김메가 학생의 올해 수능 성적표이며, 김메가 학생은 서울대를 지원할 예정이다. 다음 중 김메가 학생이 지원 가능한 모집단위를 고르시오.
   </div>
 
-  <table border="1" cellpadding="5" cellspacing="0" style="margin-bottom: 15px; width: 100%; border-collapse: collapse;">
-    <thead>
-      <tr>
-        <th>수험번호</th>
-        <th>성명</th>
-        <th>생년월일</th>
-        <th>성별</th>
-        <th>출신고교(반 또는 졸업연도)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>****</td>
-        <td>김메가</td>
-        <td>****</td>
-        <td>*</td>
-        <td>****</td>
-      </tr>
-      <tr>
-        <td>영역</td>
-        <td>한국사</td>
-        <td>국어</td>
-        <td>수학</td>
-        <td>영어</td>
-        <td>탐구1</td>
-        <td>탐구2</td>
-        <td>제2외국어/한문</td>
-      </tr>
-      <tr>
-        <td>선택과목</td>
-        <td>-</td>
-        <td>언어와매체</td>
-        <td>미적분</td>
-        <td>-</td>
-        <td>생명과학1</td>
-        <td>지구과학1</td>
-        <td>-</td>
-      </tr>
-      <tr>
-        <td>표준점수</td>
-        <td>-</td>
-        <td>137</td>
-        <td>140</td>
-        <td>-</td>
-        <td>58</td>
-        <td>70</td>
-        <td>-</td>
-      </tr>
-      <tr>
-        <td>백분위</td>
-        <td>-</td>
-        <td>100</td>
-        <td>100</td>
-        <td>-</td>
-        <td>75</td>
-        <td>99</td>
-        <td>-</td>
-      </tr>
-      <tr>
-        <td>등급</td>
-        <td>3</td>
-        <td>1</td>
-        <td>1</td>
-        <td>2</td>
-        <td>4</td>
-        <td>1</td>
-        <td>-</td>
-      </tr>
+  <style>
+  .score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .score-table th, .score-table td {
+    border: 1px solid #d0d7de;
+    padding: 8px;
+  }
+
+  .score-table thead th {
+    background-color: #f5f7fa;
+    font-weight: 600;
+  }
+
+  .score-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+
+  .score-table caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+</style>
+
+<table class="score-table">
+  <caption>김메가 학생 수능 성적표</caption>
+  <thead>
+    <tr>
+      <th>수험번호</th>
+      <th>성명</th>
+      <th>생년월일</th>
+      <th>성별</th>
+      <th>출신고교(반 또는 졸업연도)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>****</td>
+      <td>김메가</td>
+      <td>****</td>
+      <td>*</td>
+      <td>****</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="score-table">
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>한국사</th>
+      <th>국어</th>
+      <th>수학</th>
+      <th>영어</th>
+      <th>탐구1</th>
+      <th>탐구2</th>
+      <th>제2외국어/한문</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>선택과목</td>
+      <td>-</td>
+      <td>언어와매체</td>
+      <td>미적분</td>
+      <td>-</td>
+      <td>생명과학1</td>
+      <td>지구과학1</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>표준점수</td>
+      <td>-</td>
+      <td>137</td>
+      <td>140</td>
+      <td>-</td>
+      <td>58</td>
+      <td>70</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>백분위</td>
+      <td>-</td>
+      <td>100</td>
+      <td>100</td>
+      <td>-</td>
+      <td>75</td>
+      <td>99</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>등급</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
     <div class="choices" style="margin-bottom: 15px;">
       <label><input type="radio" name="q8" value="1" /> ① 기계공학부</label>
       <label><input type="radio" name="q8" value="2" /> ② 식물생산과학부</label>
@@ -3114,6 +3156,7 @@ window.addEventListener('scroll', function() {
 
 </body>
 </html>
+
 
 
 
